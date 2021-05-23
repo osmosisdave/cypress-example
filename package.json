@@ -1,0 +1,16 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "Test Automation Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:regression": "cypress run",
+    "cypress:smoke": "cypress run --spec cypress/integration/tests/open_site.test.js"
+  },
+  "author": "David Goddard",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "7.3.0"
+  }
+}
